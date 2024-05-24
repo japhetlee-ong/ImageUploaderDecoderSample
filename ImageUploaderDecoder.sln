@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageUploaderDecoder", "ImageUploaderDecoder.csproj", "{D317E0BC-5D57-4DD2-9846-F30992BEEC3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D317E0BC-5D57-4DD2-9846-F30992BEEC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D317E0BC-5D57-4DD2-9846-F30992BEEC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D317E0BC-5D57-4DD2-9846-F30992BEEC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D317E0BC-5D57-4DD2-9846-F30992BEEC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26966401-E681-4C31-9425-8121EFA09BC1}
+	EndGlobalSection
+EndGlobal

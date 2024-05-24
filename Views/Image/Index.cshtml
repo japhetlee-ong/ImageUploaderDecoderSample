@@ -1,0 +1,14 @@
+﻿@model ImageUploadModel
+
+<h1>Upload Image</h1>
+
+<form asp-action="Index" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        @Html.LabelFor(m => m.ImageFile, new { @class = "control-label" })
+        @Html.TextBoxFor(m => m.ImageFile, new { @class = "form-control", type = "file" })
+        @Html.ValidationMessageFor(m => m.ImageFile, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Upload" class="btn btn-primary" />
+    </div>
+</form>
